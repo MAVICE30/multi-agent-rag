@@ -221,8 +221,8 @@ def generate_visuals(response):
 
 # Main Function
 def main():
-    st.set_page_config(page_title="App Solutions", page_icon=":books:")
-    st.header("App Enterprise Document Solution")
+    st.set_page_config(page_title="Dr. Reddy's Solutions", page_icon=":books:")
+    st.header("Dr. Reddy's Enterprise Document Solution")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
