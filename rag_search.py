@@ -22,7 +22,7 @@ from collections import defaultdict
 import pandas as pd
 
 # AWS Bedrock Clients
-bedrock = boto3.client(aws_access_key_id="AKIAU6GD2FCB57NXI4FA", aws_secret_access_key="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",
+bedrock = boto3.client(aws_access_key_id="ACCESS_KEY", aws_secret_access_key="SECRET_KEY",
                        service_name="bedrock-runtime", region_name="us-east-1")
 bedrock_embeddings = BedrockEmbeddings(model_id="amazon.titan-embed-text-v1", client=bedrock)
 
